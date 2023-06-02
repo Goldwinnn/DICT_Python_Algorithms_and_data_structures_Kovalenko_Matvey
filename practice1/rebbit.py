@@ -31,7 +31,7 @@ class Rebbit:
     def generate_message(self):
         size_category = self.determine_size()
         areal_category = self.determine_areal()
-        message = f"кролик {self.name} має забарвлення {self.color}, {size_category} розмір довжиною {self.size} кг " \
+        message = f"кролик {self.name} має забарвлення {self.color}, {size_category} розмір вагою {self.size} кг " \
                   f"і відноситься до породи {self.breed}, які живуть у {areal_category} регіоні."
         return message
 
